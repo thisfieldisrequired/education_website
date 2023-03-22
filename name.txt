@@ -1,0 +1,56 @@
+Services:
+
+users
+courses
+payments
+chat
+
+
+DB:
+
+Category
+name - char
+
+Course
+name - char
+description - text
+price - int
+category - FK Category
+user - uuid
+
+
+Tools:
+
+Users:
+DRF
+Postgres
+JWT
+
+Courses:
+DRF
+Postgres
+
+Payments:
+DRF
+Postgres
+YoKasa
+
+Chat:
+???
+
+
+
+users
+
+redis
+
+courses
+
+
+
+
+
+
+
+
+
